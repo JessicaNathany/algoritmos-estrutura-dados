@@ -7,7 +7,6 @@
   </PropertyGroup>
 
   <ItemGroup>
-    <Folder Include="1- Estrutura de Dados inicio\" />
     <Folder Include="2- Estrutura de Dados avançado\" />
   </ItemGroup>
 
