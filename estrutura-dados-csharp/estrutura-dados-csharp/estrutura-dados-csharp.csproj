@@ -1,0 +1,14 @@
+<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <OutputType>Exe</OutputType>
+    <TargetFramework>netcoreapp3.1</TargetFramework>
+    <RootNamespace>estrutura_dados_csharp</RootNamespace>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <Folder Include="1- Estrutura de Dados inicio\" />
+    <Folder Include="2- Estrutura de Dados avançado\" />
+  </ItemGroup>
+
+</Project>
