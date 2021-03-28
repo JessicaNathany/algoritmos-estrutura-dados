@@ -7,7 +7,7 @@
   </PropertyGroup>
 
   <ItemGroup>
-    <Folder Include="2- Estrutura de Dados avançado\" />
+    <Folder Include="2- Avançado\" />
   </ItemGroup>
 
 </Project>

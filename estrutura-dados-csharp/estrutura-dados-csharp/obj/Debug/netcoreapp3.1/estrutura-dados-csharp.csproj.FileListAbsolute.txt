@@ -1,0 +1,13 @@
+C:\GitHub\estrutura-dados-csharp\algoritmos-estrutura-dados\estrutura-dados-csharp\estrutura-dados-csharp\obj\Debug\netcoreapp3.1\estrutura-dados-csharp.csprojAssemblyReference.cache
+C:\GitHub\estrutura-dados-csharp\algoritmos-estrutura-dados\estrutura-dados-csharp\estrutura-dados-csharp\obj\Debug\netcoreapp3.1\estrutura-dados-csharp.AssemblyInfoInputs.cache
+C:\GitHub\estrutura-dados-csharp\algoritmos-estrutura-dados\estrutura-dados-csharp\estrutura-dados-csharp\obj\Debug\netcoreapp3.1\estrutura-dados-csharp.AssemblyInfo.cs
+C:\GitHub\estrutura-dados-csharp\algoritmos-estrutura-dados\estrutura-dados-csharp\estrutura-dados-csharp\obj\Debug\netcoreapp3.1\estrutura-dados-csharp.csproj.CoreCompileInputs.cache
+C:\GitHub\estrutura-dados-csharp\algoritmos-estrutura-dados\estrutura-dados-csharp\estrutura-dados-csharp\bin\Debug\netcoreapp3.1\estrutura-dados-csharp.exe
+C:\GitHub\estrutura-dados-csharp\algoritmos-estrutura-dados\estrutura-dados-csharp\estrutura-dados-csharp\bin\Debug\netcoreapp3.1\estrutura-dados-csharp.deps.json
+C:\GitHub\estrutura-dados-csharp\algoritmos-estrutura-dados\estrutura-dados-csharp\estrutura-dados-csharp\bin\Debug\netcoreapp3.1\estrutura-dados-csharp.runtimeconfig.json
+C:\GitHub\estrutura-dados-csharp\algoritmos-estrutura-dados\estrutura-dados-csharp\estrutura-dados-csharp\bin\Debug\netcoreapp3.1\estrutura-dados-csharp.runtimeconfig.dev.json
+C:\GitHub\estrutura-dados-csharp\algoritmos-estrutura-dados\estrutura-dados-csharp\estrutura-dados-csharp\bin\Debug\netcoreapp3.1\estrutura-dados-csharp.dll
+C:\GitHub\estrutura-dados-csharp\algoritmos-estrutura-dados\estrutura-dados-csharp\estrutura-dados-csharp\bin\Debug\netcoreapp3.1\estrutura-dados-csharp.pdb
+C:\GitHub\estrutura-dados-csharp\algoritmos-estrutura-dados\estrutura-dados-csharp\estrutura-dados-csharp\obj\Debug\netcoreapp3.1\estrutura-dados-csharp.dll
+C:\GitHub\estrutura-dados-csharp\algoritmos-estrutura-dados\estrutura-dados-csharp\estrutura-dados-csharp\obj\Debug\netcoreapp3.1\estrutura-dados-csharp.pdb
+C:\GitHub\estrutura-dados-csharp\algoritmos-estrutura-dados\estrutura-dados-csharp\estrutura-dados-csharp\obj\Debug\netcoreapp3.1\estrutura-dados-csharp.genruntimeconfig.cache
