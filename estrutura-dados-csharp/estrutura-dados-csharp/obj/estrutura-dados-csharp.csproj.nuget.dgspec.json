@@ -10,14 +10,14 @@
         "projectUniqueName": "C:\\GitHub\\estrutura-dados-csharp\\algoritmos-estrutura-dados\\estrutura-dados-csharp\\estrutura-dados-csharp\\estrutura-dados-csharp.csproj",
         "projectName": "estrutura-dados-csharp",
         "projectPath": "C:\\GitHub\\estrutura-dados-csharp\\algoritmos-estrutura-dados\\estrutura-dados-csharp\\estrutura-dados-csharp\\estrutura-dados-csharp.csproj",
-        "packagesPath": "C:\\Users\\jnathany\\.nuget\\packages\\",
+        "packagesPath": "C:\\Users\\jnath\\.nuget\\packages\\",
         "outputPath": "C:\\GitHub\\estrutura-dados-csharp\\algoritmos-estrutura-dados\\estrutura-dados-csharp\\estrutura-dados-csharp\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
         ],
         "configFilePaths": [
-          "C:\\Users\\jnathany\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Users\\jnath\\AppData\\Roaming\\NuGet\\NuGet.Config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
         "originalTargetFrameworks": [
@@ -57,7 +57,7 @@
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\5.0.104\\RuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\5.0.201\\RuntimeIdentifierGraph.json"
         }
       }
     }
