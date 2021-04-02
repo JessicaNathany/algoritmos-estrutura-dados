@@ -1,4 +1,5 @@
 ﻿using System;
+using System.Linq;
 
 namespace estrutura_dados_csharp._1__Estrutura_de_Dados_inicio.Vetores
 {
@@ -6,7 +7,8 @@ namespace estrutura_dados_csharp._1__Estrutura_de_Dados_inicio.Vetores
     {
         public void TestaVetor()
         {
-            ObtemNotasAlunos();
+            // ObtemNotasAlunos();
+            BuscarElementoArray();
         }
 
         private void ObtemNotasAlunos()
@@ -33,16 +35,37 @@ namespace estrutura_dados_csharp._1__Estrutura_de_Dados_inicio.Vetores
                 media = soma / count;
             }
 
-            // Array.ForEach(alunosArray, Console.WriteLine); um exemplo de array em uma só linha
+            // Array.ForEach(alunosArray, Console.WriteLine); um exemplo de array utilizando o framework
             Console.WriteLine($"A média da turma é: {media}");
-             
-            Array.Sort(notasArray); // corrigir
-            Console.WriteLine($"Parabéns: {alunosArray[0]} teve maior nota {notasArray[0]}");
+            var maiorNota = notasArray.Max();
+          
+            Console.WriteLine($"Maior nota {maiorNota}");
+            Console.ReadKey();
         }
 
-        private int BuscarElemento(int posicao)
+        // Busca / Pesquisa Sequencial
+        private void BuscarElementoArray()
         {
-            return 0;
+            Console.WriteLine("Digite o nome de uma fruta que deseja procurar");
+            var fruta = Console.ReadLine();
+            string[] frutas =  {"Maçã", "Banana", "Pera", "Melão", "Melancia", "Abacate", "Goiaba" };
+
+            for(int i=0; i < frutas.Length; i++)
+            {
+                if(frutas[i].Equals(fruta, StringComparison.InvariantCultureIgnoreCase))
+                {
+                    Console.WriteLine($"A fruta {fruta} foi localizada na posição {frutas[i].Length}");
+                }
+                else
+                {
+                    Console.WriteLine($"Não foi localizado {fruta} na posição {frutas[i].Length}!");
+                }
+            }
+        }
+
+        private void AdicionarElementoEmUmaPosicaoNoArray()
+        {
+
         }
     }
 }
