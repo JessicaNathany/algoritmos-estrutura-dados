@@ -8,7 +8,8 @@ namespace estrutura_dados_csharp._1__Estrutura_de_Dados_inicio.Vetores
         public void TestaVetor()
         {
             // ObtemNotasAlunos();
-            BuscarElementoArray();
+            // BuscarElementoArray();
+            TabuadaLacoFor();
         }
 
         private void ObtemNotasAlunos()
@@ -38,7 +39,7 @@ namespace estrutura_dados_csharp._1__Estrutura_de_Dados_inicio.Vetores
             // Array.ForEach(alunosArray, Console.WriteLine); um exemplo de array utilizando o framework
             Console.WriteLine($"A média da turma é: {media}");
             var maiorNota = notasArray.Max();
-          
+
             Console.WriteLine($"Maior nota {maiorNota}");
             Console.ReadKey();
         }
@@ -48,11 +49,11 @@ namespace estrutura_dados_csharp._1__Estrutura_de_Dados_inicio.Vetores
         {
             Console.WriteLine("Digite o nome de uma fruta que deseja procurar");
             var fruta = Console.ReadLine();
-            string[] frutas =  {"Maçã", "Banana", "Pera", "Melão", "Melancia", "Abacate", "Goiaba" };
+            string[] frutas = { "Maçã", "Banana", "Pera", "Melão", "Melancia", "Abacate", "Goiaba" };
 
-            for(int i=0; i < frutas.Length; i++)
+            for (int i = 0; i < frutas.Length; i++)
             {
-                if(frutas[i].Equals(fruta, StringComparison.InvariantCultureIgnoreCase))
+                if (frutas[i].Equals(fruta, StringComparison.InvariantCultureIgnoreCase))
                 {
                     Console.WriteLine($"A fruta {fruta} foi localizada na posição {frutas[i].Length}");
                 }
@@ -63,9 +64,22 @@ namespace estrutura_dados_csharp._1__Estrutura_de_Dados_inicio.Vetores
             }
         }
 
+        private void TabuadaLacoFor()
+        {
+            Console.WriteLine("Digite um número da tabuada");
+            int numeroTabuada = Convert.ToInt32(Console.ReadLine());
+
+            for (int contador = 0; contador <= 10; contador++)
+            {
+                var result = numeroTabuada * contador;
+                Console.WriteLine(numeroTabuada + " x " + contador + " = " + result);
+            }
+        }
+
         private void AdicionarElementoEmUmaPosicaoNoArray()
         {
 
         }
+
     }
 }
