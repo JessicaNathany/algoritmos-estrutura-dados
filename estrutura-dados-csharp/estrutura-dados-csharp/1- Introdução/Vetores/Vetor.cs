@@ -8,8 +8,12 @@ namespace estrutura_dados_csharp._1__Estrutura_de_Dados_inicio.Vetores
         public void TestaVetor()
         {
             // ObtemNotasAlunos();
+
             // BuscarElementoArray();
-            TabuadaLacoFor();
+
+            AdicionarElementoEmQualquerPosicaoNoArray(0, "Tether");
+
+            //TabuadaLacoFor();
         }
 
         private void ObtemNotasAlunos()
@@ -36,7 +40,6 @@ namespace estrutura_dados_csharp._1__Estrutura_de_Dados_inicio.Vetores
                 media = soma / count;
             }
 
-            // Array.ForEach(alunosArray, Console.WriteLine); um exemplo de array utilizando o framework
             Console.WriteLine($"A média da turma é: {media}");
             var maiorNota = notasArray.Max();
 
@@ -76,10 +79,33 @@ namespace estrutura_dados_csharp._1__Estrutura_de_Dados_inicio.Vetores
             }
         }
 
-        private void AdicionarElementoEmUmaPosicaoNoArray()
+        private void AdicionarElementoEmQualquerPosicaoNoArray(int posicao, string moeda)
         {
+            string[] criptomoedas = new string[7];
 
+            criptomoedas[0] = "Bitcoin";
+            criptomoedas[1] = "Ethereum";
+            criptomoedas[2] = "Binance";
+            criptomoedas[3] = "XRP";
+            criptomoedas[4] = "Litecoin";
+
+            var tamanho = criptomoedas.Length;
+
+            if(!(posicao >= 0 && posicao < tamanho))
+            {
+                Console.WriteLine("Posição inválida");
+            }
+
+            for(int i = tamanho-1; i >= posicao; i--)
+            {
+                criptomoedas[i+1] = criptomoedas[i];
+            }
+
+            criptomoedas[posicao] = moeda;
+            tamanho++;
+
+            Console.WriteLine();
+            Array.ForEach(criptomoedas, Console.WriteLine);
         }
-
     }
 }
