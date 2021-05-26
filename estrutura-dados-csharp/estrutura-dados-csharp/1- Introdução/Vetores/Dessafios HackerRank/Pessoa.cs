@@ -8,7 +8,7 @@ namespace estrutura_dados_csharp._1__Introdução.Vetores
 
         public Pessoa(int idade)
         {
-            if(idade < 0)
+            if(idade <= 0)
             {
                 Console.WriteLine("Age is not valid, setting age to 0.");
                 idade = 0;
@@ -42,16 +42,18 @@ namespace estrutura_dados_csharp._1__Introdução.Vetores
 
         private void SouMaisVelho()
         {
-            if(Idade >= 18)
+            if (Idade < 13)
             {
-                Console.WriteLine("You are old.");
+                Console.WriteLine("You are young.");
             }
-            else if(Idade >= 13)
+            else if (13 <= Idade && Idade < 18)
             {
                 Console.WriteLine("You are a teenager.");
             }
-
-            Console.WriteLine("You are a young.");
+            else if (Idade >= 18)
+            {
+                Console.WriteLine("You are old.");
+            }
         }
 
         private void PassaAno()

@@ -1,4 +1,5 @@
 ﻿using estrutura_dados_csharp._1__Introdução.Vetores;
+using estrutura_dados_csharp._1__Introdução.Vetores.Dessafios_HackerRank;
 using System;
 
 namespace estrutura_dados_csharp._1__Estrutura_de_Dados_inicio.Vetores
@@ -9,34 +10,30 @@ namespace estrutura_dados_csharp._1__Estrutura_de_Dados_inicio.Vetores
         {
             Console.WriteLine(" Selecione em exemplo");
             Console.WriteLine();
-            Console.WriteLine("1 - Notas alunos");
-            Console.WriteLine("2 - Busca Sequencial");
-            Console.WriteLine("3 - Adicionar elementos no array");
-            Console.WriteLine("4 - Tabuada usando laço for");
-            Console.WriteLine("5 - Busca elemento no array");
-            Console.WriteLine("6 - Calcula idade pessoa");
+            Console.WriteLine("1 - Testar Arrays");
+            Console.WriteLine("2 - Testar HackerRank");
+            Console.WriteLine("3 - Testar Pilhas ");
+            Console.WriteLine("4 - r");
+            Console.WriteLine("5 - ");
+            Console.WriteLine("6 - ");
 
             var opcao = Console.ReadKey();
 
             switch (opcao.KeyChar)
             {
                 case '1':
-                    new NotasAlunos().ObtemNotasAlunos();
+                    new ExemplosArrays().TestaArrays();
                     break;
 
                 case '2':
-                    new BuscaSequencial().BuscarElementoArray();
+                    new HackerRank().TestaHackerRank();
                     break;
 
                 case '3':
-                    new ExemplosArrays().AdicionarElementoEmQualquerPosicaoNoArray();
+                    new ExemplosArrays().TestaArrays();
                     break;
 
                 case '4':
-                    new Tabuada().TabuadaLacoFor();
-                    break;
-
-                case '5':
                     new Pessoa(18).CalcularIdade();
                     break;
             }
