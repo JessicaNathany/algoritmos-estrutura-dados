@@ -101,13 +101,13 @@ namespace estrutura_dados_csharp._1__Introdução.Vetores
 
             var posicao = BuscarElementos(nomeLinguagem, linguagensProgramacao);
 
-            var itensRemovidos = RemoveItem(posicao, linguagensProgramacao);
+            var itensRemovidos = RemoverItem(posicao, linguagensProgramacao);
 
             Console.WriteLine();
             Array.ForEach(linguagensProgramacao, Console.WriteLine);
         }
 
-        private object[] RemoveItem(int posicao, string[] array)
+        private object[] RemoverItem(int posicao, string[] array)
         {
             var tamanho = array.Length;
 
