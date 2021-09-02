@@ -196,5 +196,7 @@ namespace estrutura_dados_csharp._1__Introdução.Vetores
             tamanho--;
             return array;
         }
+
+     
     }
 }

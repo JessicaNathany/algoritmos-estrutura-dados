@@ -14,8 +14,6 @@ namespace estrutura_dados_csharp._1__Estrutura_de_Dados_inicio.Vetores
             Console.WriteLine("2 - Testar HackerRank");
             Console.WriteLine("3 - Testar Pilhas ");
             Console.WriteLine("4 - r");
-            Console.WriteLine("5 - ");
-            Console.WriteLine("6 - ");
 
             var opcao = Console.ReadKey();
 
@@ -30,7 +28,7 @@ namespace estrutura_dados_csharp._1__Estrutura_de_Dados_inicio.Vetores
                     break;
 
                 case '3':
-                    new ExemplosArrays().TestaArrays();
+                    new ExemplosArrays().TestaArrays(); // pilhas
                     break;
 
                 case '4':
