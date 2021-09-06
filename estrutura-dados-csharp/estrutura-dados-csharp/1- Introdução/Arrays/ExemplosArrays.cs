@@ -1,7 +1,7 @@
 ﻿using System;
 using System.Linq;
 
-namespace estrutura_dados_csharp._1__Introdução.Vetores
+namespace estrutura_dados_csharp._1__Introdução.Arrays
 {
     public class ExemplosArrays
     {

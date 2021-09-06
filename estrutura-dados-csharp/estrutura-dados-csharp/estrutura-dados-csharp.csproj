@@ -7,6 +7,7 @@
   </PropertyGroup>
 
   <ItemGroup>
+    <Folder Include="1- Introdução\Vetores\" />
     <Folder Include="2- Avançado\Merge Sort\" />
     <Folder Include="2- Avançado\BigO\" />
     <Folder Include="2- Avançado\Dijkstra\" />

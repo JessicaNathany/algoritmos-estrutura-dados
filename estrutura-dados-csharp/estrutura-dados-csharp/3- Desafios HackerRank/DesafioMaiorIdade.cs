@@ -1,12 +1,12 @@
 ﻿using System;
 
-namespace estrutura_dados_csharp._1__Introdução.Vetores
+namespace estrutura_dados_csharp._3__Desafios_HackerRank
 {
-    public class Pessoa
+    public class DesafioMaiorIdade
     {
         public int Idade { get; set; }
 
-        public Pessoa(int idade)
+        public DesafioMaiorIdade(int idade)
         {
             if(idade <= 0)
             {
@@ -26,7 +26,7 @@ namespace estrutura_dados_csharp._1__Introdução.Vetores
             for (int i = 0; i < idadeTeste; i++)
             {
                 int age = int.Parse(Console.In.ReadLine());
-                Pessoa pessoa = new Pessoa(age);
+                DesafioMaiorIdade pessoa = new DesafioMaiorIdade(age);
 
                 pessoa.SouMaisVelho();
 
@@ -40,7 +40,7 @@ namespace estrutura_dados_csharp._1__Introdução.Vetores
             }
         }
 
-        private void SouMaisVelho()
+        public void SouMaisVelho()
         {
             if (Idade < 13)
             {
