@@ -53,6 +53,7 @@ namespace estrutura_dados_csharp._1__Introdução.Vetores
             }
             return -1;
         }
+        
         private void ProcurarUmaFrutaNaLista()
         {
             Console.WriteLine("Digite o nome de uma fruta que deseja procurar");
@@ -71,6 +72,7 @@ namespace estrutura_dados_csharp._1__Introdução.Vetores
                 }
             }
         }
+        
         private void TabuadaLacoFor()
         {
             Console.WriteLine("Digite um número da tabuada");
@@ -82,6 +84,7 @@ namespace estrutura_dados_csharp._1__Introdução.Vetores
                 Console.WriteLine(numeroTabuada + " x " + contador + " = " + result);
             }
         }
+        
         private void ObtemNotasAlunos()
         {
             int[] notasArray = new int[3];
@@ -196,7 +199,5 @@ namespace estrutura_dados_csharp._1__Introdução.Vetores
             tamanho--;
             return array;
         }
-
-     
     }
 }
