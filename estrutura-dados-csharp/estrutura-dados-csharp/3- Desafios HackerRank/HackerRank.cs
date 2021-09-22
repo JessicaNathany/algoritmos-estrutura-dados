@@ -10,7 +10,7 @@ namespace estrutura_dados_csharp._3__Desafios_HackerRank
             Console.WriteLine();
             Console.WriteLine("1 - Desafio idade");
             Console.WriteLine("2 - Very Big Sum");
-            Console.WriteLine("3 - ");
+            Console.WriteLine("3 - Time Conversion");
             Console.WriteLine("4 - ");
             Console.WriteLine("5 - ");
 
@@ -23,7 +23,11 @@ namespace estrutura_dados_csharp._3__Desafios_HackerRank
                     break;
 
                 case '2':
-                    new VeryBigSum().SolveSolutionVeryBigSum();
+                    new VeryBigSum().SolveSolutionVeryBigSum(); 
+                    break;
+
+                case '3':
+                    new TimeConversion().CalculateTime("07:05:45PM"); 
                     break;
             }
         }
