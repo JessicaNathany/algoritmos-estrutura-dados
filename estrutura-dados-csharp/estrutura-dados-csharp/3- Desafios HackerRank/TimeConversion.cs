@@ -55,13 +55,14 @@ namespace estrutura_dados_csharp._3__Desafios_HackerRank
             {
                 horaFormatada = Convert.ToInt32(arrHora[0]) + 12;
             }
-            else if (posicaoHora > 12)
+            else 
             {
                 horaFormatada = Convert.ToInt32(arrHora[0]) - 12;
                 stringConcat = "0" + horaResult;
                 horaResult = stringConcat;
             }
-            else if (posicaoHora == 0 || posicaoHora == 12)
+
+            if (posicaoHora == 0 || posicaoHora == 12)
             {
                 horaResult = horaResult.Replace(arrHora[0], horaFormatada.ToString());
                 stringConcat = "0" + horaResult;

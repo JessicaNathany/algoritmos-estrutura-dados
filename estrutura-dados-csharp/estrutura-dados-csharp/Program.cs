@@ -28,7 +28,7 @@ namespace estrutura_dados_csharp
                     break;
 
                 case '2':
-                    new Pilhas().TestaPilhas();
+                    new ExemploPilhas().TestaPilhas();
                     break;
 
                 case '3':
@@ -36,7 +36,7 @@ namespace estrutura_dados_csharp
                     break;
 
                 case '4':
-                    new Arvores().TestaArvores();
+                    new ExemploArvores().TestaArvores();
                     break;
 
                 case '5':

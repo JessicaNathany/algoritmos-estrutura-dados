@@ -47,9 +47,7 @@ namespace estrutura_dados_csharp._1__Introdução.Arrays
             for (int i = 0; i < tamanho; i++)
             {
                 if (array[i].Equals(elemento, StringComparison.InvariantCultureIgnoreCase))
-                {
                     return i;
-                }
             }
             return -1;
         }
@@ -187,9 +185,7 @@ namespace estrutura_dados_csharp._1__Introdução.Arrays
             var tamanho = array.Length;
 
             if (!(posicao >= 0 && posicao < tamanho))
-            {
                 Console.WriteLine("Posição inválida!");
-            }
 
             for (int i = posicao; i < tamanho - 1; i++)
             {
