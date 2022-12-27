@@ -1,7 +1,6 @@
 ﻿using estrutura_dados_csharp._1__Introdução.Arrays;
 using estrutura_dados_csharp._1__Introdução.Arvores;
 using estrutura_dados_csharp._1__Introdução.Filas;
-using estrutura_dados_csharp._1__Introdução.Pilhas;
 using estrutura_dados_csharp._3__Desafios_HackerRank;
 using System;
 
@@ -28,7 +27,7 @@ namespace estrutura_dados_csharp
                     break;
 
                 case '2':
-                    new ExemploPilhas().TestaPilhas();
+                    //new ExemploPilhas().TestaPilhas();
                     break;
 
                 case '3':

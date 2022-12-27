@@ -11,3 +11,4 @@ C:\GitHub\estrutura-dados-csharp\algoritmos-estrutura-dados\estrutura-dados-csha
 C:\GitHub\estrutura-dados-csharp\algoritmos-estrutura-dados\estrutura-dados-csharp\estrutura-dados-csharp\obj\Debug\netcoreapp3.1\estrutura-dados-csharp.pdb
 C:\GitHub\estrutura-dados-csharp\algoritmos-estrutura-dados\estrutura-dados-csharp\estrutura-dados-csharp\obj\Debug\netcoreapp3.1\estrutura-dados-csharp.genruntimeconfig.cache
 C:\GitHub\estrutura-dados-csharp\algoritmos-estrutura-dados\estrutura-dados-csharp\estrutura-dados-csharp\obj\Debug\netcoreapp3.1\estrutura-dados-csharp.csproj.AssemblyReference.cache
+C:\GitHub\estrutura-dados-csharp\algoritmos-estrutura-dados\estrutura-dados-csharp\estrutura-dados-csharp\obj\Debug\netcoreapp3.1\estrutura-dados-csharp.GeneratedMSBuildEditorConfig.editorconfig
