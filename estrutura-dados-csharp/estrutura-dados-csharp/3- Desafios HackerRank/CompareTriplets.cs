@@ -38,7 +38,7 @@ namespace estrutura_dados_csharp._3__Desafios_HackerRank
                     var positionA = listA[index];
                     var positionB = listB[index];
 
-                    CompareNumbers(positionA, positionB, listB, scoreAlice, scoreBob);
+                    CompareNumbers(positionA, positionB, scoreAlice, scoreBob);
                 }
             }
 
@@ -46,7 +46,7 @@ namespace estrutura_dados_csharp._3__Desafios_HackerRank
             return new List<int> { scoreAlice, scoreBob };
         }
 
-        private void CompareNumbers(int positionA, int positionB, List<int> listB, int scoreAlice, int scoreBob)
+        private void CompareNumbers(int positionA, int positionB, int scoreAlice, int scoreBob)
         {
             if (positionA > positionB)
             {
@@ -58,34 +58,7 @@ namespace estrutura_dados_csharp._3__Desafios_HackerRank
             }
         }
 
-        //private List<int> CalculateCompareTriplets(List<int> listA, List<int> listB)
-        //{
-        //    int scoreAlice = 0;
-        //    int scoreBob = 0;
-        //    List<int> results = new List<int>();
-
-        //    for (int index = 0; index < listA.Count(); index++)
-        //    {
-        //        var positionA = listA[0];
-        //        var positionB = listB[0];
-
-
-
-        //        if (positionA > positionB)
-        //        {
-        //            scoreAlice += 1;
-        //        }
-        //        else if (positionA < positionB)
-        //        {
-        //            scoreBob += 1;
-        //        }
-        //        else
-        //        {
-        //            continue;
-        //        }
-        //    }
-        //    return new List<int> { scoreAlice, scoreBob };
-        //}
+       
     }
 }
        
