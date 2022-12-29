@@ -1,6 +1,5 @@
 ﻿using System;
 using System.Collections.Generic;
-using System.Linq;
 
 namespace estrutura_dados_csharp._3__Desafios_HackerRank
 {
@@ -26,39 +25,23 @@ namespace estrutura_dados_csharp._3__Desafios_HackerRank
         }
         private List<int> CalculateCompareTriplets(List<int> listA, List<int> listB)
         {
-            int scoreAlice = 0;
-            int scoreBob = 0;
+            List<int> scores = new List<int>() { 0, 0 };
 
-            List<int> results = new List<int>();
-
-            foreach (var numberA in listA)
+            for (int i = 0; i < listA.Count; i++)
             {
-                for (int index = 0; index < listA.Count(); index++)
+                if (listA[i] > listB[i])
                 {
-                    var positionA = listA[index];
-                    var positionB = listB[index];
-
-                    CompareNumbers(positionA, positionB, scoreAlice, scoreBob);
+                    scores[0]++;
                 }
+                else if (listA[i] < listB[i])
+                {
+                    scores[i]++;
+                }
+
             }
 
-            
-            return new List<int> { scoreAlice, scoreBob };
+            return scores;
         }
-
-        private void CompareNumbers(int positionA, int positionB, int scoreAlice, int scoreBob)
-        {
-            if (positionA > positionB)
-            {
-                scoreAlice += 1;
-            }
-            else if (positionA < positionB)
-            {
-                scoreBob += 1;
-            }
-        }
-
-       
     }
 }
        
