@@ -12,9 +12,11 @@ namespace estrutura_dados_csharp._3__Desafios_HackerRank
             Console.WriteLine("2 - Very Big Sum");
             Console.WriteLine("3 - Time Conversion");
             Console.WriteLine("4 - CompareTriplets");
-            Console.WriteLine("5 - ");
+            Console.WriteLine();
 
             var opcao = Console.ReadKey();
+            Console.WriteLine();
+            Console.WriteLine();
 
             switch (opcao.KeyChar)
             {
