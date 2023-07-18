@@ -2,6 +2,7 @@
 using estrutura_dados_csharp._1__Introdução.Arvores;
 using estrutura_dados_csharp._1__Introdução.Filas;
 using estrutura_dados_csharp._3__Desafios_HackerRank;
+using estrutura_dados_csharp._2__Avançado.QuickSort;
 using System;
 
 namespace estrutura_dados_csharp
@@ -16,7 +17,8 @@ namespace estrutura_dados_csharp
             Console.WriteLine("2 - Pilhas");
             Console.WriteLine("3 - Filas");
             Console.WriteLine("4 - Árvores");
-            Console.WriteLine("5 - Desafios HarckerRank");
+            Console.WriteLine("5 - BubleSort");
+            Console.WriteLine("6 - Desafios HarckerRank");
 
             var opcao = Console.ReadKey();
 
@@ -39,6 +41,10 @@ namespace estrutura_dados_csharp
                     break;
 
                 case '5':
+                    new ExemploBubbleSort().TestaBubbleSort();
+                    break;
+
+                case '6':
                     new HackerRank().TestaHackerRank();
                     break;
             }

@@ -7,11 +7,12 @@
   </PropertyGroup>
 
   <ItemGroup>
-    <Folder Include="2- Avançado\Merge Sort\" />
+    <Folder Include="2- Avançado\MergeSort\" />
     <Folder Include="2- Avançado\BigO\" />
     <Folder Include="2- Avançado\Dijkstra\" />
     <Folder Include="2- Avançado\Grafos\" />
-    <Folder Include="2- Avançado\Pesquisa Binária\" />
+    <Folder Include="2- Avançado\BubbleSort\" />
+    <Folder Include="2- Avançado\PesquisaBinária\" />
   </ItemGroup>
 
 </Project>
