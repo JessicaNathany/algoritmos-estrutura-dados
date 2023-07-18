@@ -2,7 +2,7 @@
 using System.Collections.Generic;
 using System.Linq;
 
-namespace estrutura_dados_csharp._2__Avançado.QuickSort
+namespace estrutura_dados_csharp._2__Avançado.BubbleSort
 {
     public class ExemploBubbleSort
     {
@@ -64,7 +64,7 @@ namespace estrutura_dados_csharp._2__Avançado.QuickSort
                 {
                     if (numeros[j] > numeros[j + 1])
                     {
-                        // se for, então troca os elementos
+                        // troca os elementos
                         int temp = numeros[j];
                         numeros[j] = numeros[j + 1];
                         numeros[j + 1] = temp;
