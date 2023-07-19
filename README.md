@@ -6,10 +6,12 @@ Este é repositório de estudos sobre estrutura de dados utilizando a linguagem 
 	🚧  Project 🚀 em construção...  🚧
  </h4>
 
-##📝 Documentação <br/>
+## Documentação 📝<br/>
 
 - Introdução e Referências
+- Big-O
+- 
 
-🧮 ## Documentação
+ ## Documentação 🧮
 
 
