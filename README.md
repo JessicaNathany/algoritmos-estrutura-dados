@@ -30,7 +30,8 @@ como Python, Java ou C++. Há muitos cursos online gratuitos e pagos disponívei
 A notação O (Big O) é uma notação matemática utilizada para medir a eficiência e desempenho do algoritmo de forma simples e prática. <br/>
 Ela é usada para descrever o limite superior do número de operações que um algoritmo realiza em função do tamanho de entrada. Por exemplo, se um algoritmo tem uma complexidade O (n), isso significa que o número de operações cresce linearmente com o tamanho de entrada.
 
-![Untitled](https://s3-us-west-2.amazonaws.com/secure.notion-static.com/752af869-b4b0-4aaa-9863-ddbbdec0b278/Untitled.png)
+![image](https://github.com/JessicaNathany/algoritmos-estrutura-dados/assets/11943572/c368e547-e619-4e75-9e37-c6c39a86ac37)
+
 
 Observa-se no gráfico acima, a diferença no tempo de processamento (eixo Y) conforme a quantidade de dados de entrada aumenta (eixo X).<br/>
 
@@ -38,10 +39,5 @@ Observa-se no gráfico acima, a diferença no tempo de processamento (eixo Y) co
 
 Considere o seguinte algoritmo:
 
- `function calcular() {
-    return 15 * (30 + 90);
-}
-
-print(calcular());
-`
+ 
 
