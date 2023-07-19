@@ -39,17 +39,12 @@ Observa-se no gráfico acima, a diferença no tempo de processamento (eixo Y) co
 
 Considere o seguinte algoritmo:
 
- // Exemplo de função que percorre a lista.
-int percorrendoLista(Lista * lista, int i){
-  aux = lista;
-  int posicao = 0;
-  while(aux != NULL){
-    if(posicao == i){
-      return lista->valor;
-    }
-    aux = aux->proximo;
-  }
-  printf("Posição inválida.");
-  return NULL;
+
+```
+function calcular() {
+    return 15 * (30 + 90);
 }
 
+print(calcular());
+
+```
