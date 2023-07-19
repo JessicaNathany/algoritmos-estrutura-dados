@@ -48,3 +48,35 @@ function calcular() {
 print(calcular());
 
 ```
+O exemplo de algoritmo acima apenas realiza um pequeno cálculo. No caso acima, não há repetições, portanto o tempo de demora é representado como O(1).
+
+### **Como calcular repetições dentro do algoritmo?**
+
+Ao utilizarmos loops dentro do algoritmo o resultado pode variar um pouco:
+
+```
+functioncalcular(int $no) {
+return 15 * ($no + 90);
+}
+
+foreach ($i = 0; $i < 1000; i++) {
+print(calcular($i));
+}
+
+```
+
+**Referências**: 
+
+(https://algol.dev/notacao-big-o/)
+
+https://blog.pantuza.com/artigos/a-notacao-o
+
+https://dicionariotec.com/posts/notacao-do-big-o
+
+https://dicionariotec.com/posts/pilha-stack-e-fila-queue
+
+https://www.bigocheatsheet.com/
+
+[https://estevestoni.medium.com/iniciando-com-a-notação-big-o-be996fa3b47b](https://estevestoni.medium.com/iniciando-com-a-nota%C3%A7%C3%A3o-big-o-be996fa3b47b)
+
+https://lamfo.unb.br/wp-content/uploads/2021/03/Complexidade-Temporal-e-Espacial.pdf
