@@ -76,3 +76,7 @@ https://www.bigocheatsheet.com/
 https://lamfo.unb.br/wp-content/uploads/2021/03/Complexidade-Temporal-e-Espacial.pdf
 
 ## Bubble Sort <br/>
+
+O Bubble Sort é um dos algoritmos de ordenação mais simples, que consiste em percorrer os N elementos de um vetor, para cada vez percorrida, todos os elementos são comparados com o seu próximo, para verificar se estão na ordem desejada. O passe pela lista é repetido até que não seja necessário nenhuma troca, indicando que a lista está ordenada. O algoritmo recebe esse nome porque os itens menores borbulham gradualmente até o topo da lista.
+
+Esse algoritmo não é adequado para listas grandes, pois sua complexidade é de O(n²).
