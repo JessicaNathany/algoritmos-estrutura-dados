@@ -19,4 +19,9 @@ Este é repositório de estudos sobre estrutura de dados utilizando a linguagem 
 
  ## Estrutura de Dados 🧮
 
+Para estudar estrutura de dados, sugiro o seguinte roteiro de estudos:<br/>
+
+Fundamentos de programação: Antes de começar a estudar estrutura de dados, é importante ter uma sólida compreensão dos conceitos fundamentais de programação,<br/>
+como variáveis, funções, loops, condicionais, etc. Se você não tem experiência com programação, comece com cursos básicos de programação em uma linguagem popular, <br/> 
+como Python, Java ou C++. Há muitos cursos online gratuitos e pagos disponíveis. <br/>
 
