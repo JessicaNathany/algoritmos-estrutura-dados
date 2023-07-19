@@ -67,13 +67,14 @@ print(calcular($i));
 
 **Referências**: 
 
-https://algol.dev/notacao-big-o/
-https://blog.pantuza.com/artigos/a-notacao-o
-https://dicionariotec.com/posts/notacao-do-big-o
-https://dicionariotec.com/posts/pilha-stack-e-fila-queue
-https://www.bigocheatsheet.com/
+[https://algol.dev/notacao-big-o/]
+[https://blog.pantuza.com/artigos/a-notacao-o]
+[https://dicionariotec.com/posts/notacao-do-big-o]
+[https://dicionariotec.com/posts/pilha-stack-e-fila-queue]
+[https://www.bigocheatsheet.com/]
 [https://estevestoni.medium.com/iniciando-com-a-notação-big-o-be996fa3b47b](https://estevestoni.medium.com/iniciando-com-a-nota%C3%A7%C3%A3o-big-o-be996fa3b47b)
-https://lamfo.unb.br/wp-content/uploads/2021/03/Complexidade-Temporal-e-Espacial.pdf
+[https://lamfo.unb.br/wp-content/uploads/2021/03/Complexidade-Temporal-e-Espacial.pdf] <br />
+
 
 ## Bubble Sort <br/>
 
