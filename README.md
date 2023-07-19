@@ -67,13 +67,13 @@ print(calcular($i));
 
 **Referências**: 
 
-[https://algol.dev/notacao-big-o/]
-[https://blog.pantuza.com/artigos/a-notacao-o]
-[https://dicionariotec.com/posts/notacao-do-big-o]
-[https://dicionariotec.com/posts/pilha-stack-e-fila-queue]
-[https://www.bigocheatsheet.com/]
+https://algol.dev/notacao-big-o/
+https://blog.pantuza.com/artigos/a-notacao-o
+https://dicionariotec.com/posts/notacao-do-big-o
+https://dicionariotec.com/posts/pilha-stack-e-fila-queue
+https://www.bigocheatsheet.com/
 [https://estevestoni.medium.com/iniciando-com-a-notação-big-o-be996fa3b47b](https://estevestoni.medium.com/iniciando-com-a-nota%C3%A7%C3%A3o-big-o-be996fa3b47b)
-[https://lamfo.unb.br/wp-content/uploads/2021/03/Complexidade-Temporal-e-Espacial.pdf] <br />
+https://lamfo.unb.br/wp-content/uploads/2021/03/Complexidade-Temporal-e-Espacial.pdf <br />
 
 
 ## Bubble Sort <br/>
@@ -81,3 +81,27 @@ print(calcular($i));
 O Bubble Sort é um dos algoritmos de ordenação mais simples, que consiste em percorrer os N elementos de um vetor, para cada vez percorrida, todos os elementos são comparados com o seu próximo, para verificar se estão na ordem desejada. O passe pela lista é repetido até que não seja necessário nenhuma troca, indicando que a lista está ordenada. O algoritmo recebe esse nome porque os itens menores borbulham gradualmente até o topo da lista.
 
 Esse algoritmo não é adequado para listas grandes, pois sua complexidade é de O(n²).
+
+![image](https://github.com/JessicaNathany/algoritmos-estrutura-dados/assets/11943572/b00bc95f-3215-4c8c-a19f-7f5d1512e720)
+
+O Bubble Sort é mais útil para fins educacionais, pois é simples de entender e implementar. Em ambientes de produção, são preferidos algoritmos de classificação mais eficientes, como Quicksort, Heapsort ou Mergesort.
+
+Exemplo:
+
+![image](https://github.com/JessicaNathany/algoritmos-estrutura-dados/assets/11943572/f984b18f-a565-4144-a5ee-bc2f5047310d)
+
+Embora o Bubble Sort não seja eficiente em muitos casos devido à sua complexidade computacional (O(n²) no pior caso), ele pode ser útil em certas situações:
+
+1. **Tamanho pequeno da lista:** O Bubble Sort pode ser uma boa opção se a lista for relativamente pequena. Isso ocorre porque sua ineficiência é menos perceptível com listas menores.
+2. **Listas quase ordenadas:** O Bubble Sort se comporta bem quando a lista já está quase ordenada, já que é capaz de detectar se a lista está ordenada rapidamente.
+3. **Simplicidade:** Em termos de implementação, o Bubble Sort é bastante simples de entender e implementar. Isso pode ser útil em ambientes educacionais onde o foco é aprender os conceitos básicos de algoritmos de ordenação.
+4. **Detecção de lista ordenada:** O Bubble Sort é um dos poucos algoritmos que pode confirmar que uma lista está completamente ordenada em uma única passagem.
+5. **Em memória:** Como o Bubble Sort é um algoritmo de classificação in-place (ou seja, não precisa de espaço de memória extra significativo para realizar a classificação), pode ser uma escolha adequada se a memória for uma consideração.
+
+No entanto, na maioria dos casos práticos, é aconselhável usar algoritmos de ordenação mais eficientes, como Quicksort, Mergesort ou Heapsort. Estes algoritmos têm complexidade computacional melhor e, consequentemente, lidam melhor com conjuntos de dados maiores.
+
+Fontes: 
+
+http://www.universidadejava.com.br/pesquisa_ordenacao/bubble-sort/
+https://www.youtube.com/watch?v=GiNPe_678Ms&list=PL5TJqBvpXQv4l7nH-08fMfyl7aDFNW_fC&index=2
+
