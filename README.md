@@ -25,3 +25,8 @@ Fundamentos de programação: Antes de começar a estudar estrutura de dados, é
 como variáveis, funções, loops, condicionais, etc. Se você não tem experiência com programação, comece com cursos básicos de programação em uma linguagem popular, 
 como Python, Java ou C++. Há muitos cursos online gratuitos e pagos disponíveis. <br/>
 
+**Notação Big-O** <br/>
+
+A notação O (Big O) é uma notação matemática utilizada para medir a eficiência e desempenho do algoritmo de forma simples e prática. <br/>
+Ela é usada para descrever o limite superior do número de operações que um algoritmo realiza em função do tamanho de entrada. Por exemplo, se um algoritmo tem uma complexidade O (n), isso significa que o número de operações cresce linearmente com o tamanho de entrada.
+
