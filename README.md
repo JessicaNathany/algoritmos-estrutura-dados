@@ -25,7 +25,7 @@ Fundamentos de programação: Antes de começar a estudar estrutura de dados, é
 como variáveis, funções, loops, condicionais, etc. Se você não tem experiência com programação, comece com cursos básicos de programação em uma linguagem popular, 
 como Python, Java ou C++. Há muitos cursos online gratuitos e pagos disponíveis. <br/>
 
-**Notação Big-O** <br/>
+## Notação Big-O <br/>
 
 A notação O (Big O) é uma notação matemática utilizada para medir a eficiência e desempenho do algoritmo de forma simples e prática. <br/>
 Ela é usada para descrever o limite superior do número de operações que um algoritmo realiza em função do tamanho de entrada. Por exemplo, se um algoritmo tem uma complexidade O (n), isso significa que o número de operações cresce linearmente com o tamanho de entrada.
@@ -67,16 +67,12 @@ print(calcular($i));
 
 **Referências**: 
 
-(https://algol.dev/notacao-big-o/)
-
+https://algol.dev/notacao-big-o/
 https://blog.pantuza.com/artigos/a-notacao-o
-
 https://dicionariotec.com/posts/notacao-do-big-o
-
 https://dicionariotec.com/posts/pilha-stack-e-fila-queue
-
 https://www.bigocheatsheet.com/
-
 [https://estevestoni.medium.com/iniciando-com-a-notação-big-o-be996fa3b47b](https://estevestoni.medium.com/iniciando-com-a-nota%C3%A7%C3%A3o-big-o-be996fa3b47b)
-
 https://lamfo.unb.br/wp-content/uploads/2021/03/Complexidade-Temporal-e-Espacial.pdf
+
+## Bubble Sort <br/>
