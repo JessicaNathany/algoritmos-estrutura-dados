@@ -10,8 +10,13 @@ Este é repositório de estudos sobre estrutura de dados utilizando a linguagem 
 
 - Introdução e Referências
 - Big-O
-- 
+- Bubble Sort
+- Selection Sort
+- Insertion Sort
+- Quick Sort
+- Merge Sort
+- Arrays, Listas e Vetores <br/>
 
- ## Documentação 🧮
+ ## Estrutura de Dados 🧮
 
 
