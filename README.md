@@ -1,6 +1,15 @@
-# Treinamento de Estrutura de Dados com CSharp
-##### Repositório para estudos de estrutura de dados, utilizando a linguagem c# desde o básico ao avançado
+# Estrutura de Dados com a linguagem <img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/csharp/csharp-original.svg" alt="csharp" width="40" height="40"/> </a> 
 
- 
+Este é repositório de estudos sobre estrutura de dados utilizando a linguagem C#.<br/>
+
+ <h4 align="center"> 
+	🚧  Project 🚀 em construção...  🚧
+ </h4>
+
+##📝 Documentação <br/>
+
+- Introdução e Referências
+
+🧮 ## Documentação
 
 
